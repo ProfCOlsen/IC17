@@ -21,5 +21,10 @@ namespace IC17
         {
             MessageBox.Show("This is Sam Vaccaro's Button!");
         }
+
+        private void AngelWongButton_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("This is Angel's bio");
+        }
     }
 }
