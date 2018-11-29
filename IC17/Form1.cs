@@ -29,5 +29,10 @@ namespace IC17
         {
             MessageBox.Show("This is Dieu Dang's bio.");
         }
+
+        private void ZhixinButton_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Hi this is Zhixin Wang.");
+        }
     }
 }
