@@ -18,5 +18,10 @@ namespace IC17
             int y = 0;
             int x = 0;
         }
+
+        private void raajpaalGohlwarButton_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("This is Raajpaal Gohlwar's bio box");
+        }
     }
 }
