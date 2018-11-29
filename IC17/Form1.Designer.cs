@@ -50,9 +50,9 @@
             // 
             this.jKellyButton.Location = new System.Drawing.Point(480, 258);
             this.jKellyButton.Name = "jKellyButton";
-            this.jKellyButton.Size = new System.Drawing.Size(66, 61);
+            this.jKellyButton.Size = new System.Drawing.Size(71, 61);
             this.jKellyButton.TabIndex = 1;
-            this.jKellyButton.Text = "J Kelly";
+            this.jKellyButton.Text = "John Kelly";
             this.jKellyButton.UseVisualStyleBackColor = true;
             this.jKellyButton.Click += new System.EventHandler(this.jKellyButton_Click);
             // 
