@@ -25,6 +25,9 @@ namespace IC17
         }
 
         private void raajpaalGohlwarButton_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("This is Raaj Paal Button Bio");
+        }
 
 
 
