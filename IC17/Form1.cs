@@ -25,8 +25,56 @@ namespace IC17
         }
 
         private void raajpaalGohlwarButton_Click(object sender, EventArgs e)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        private void jKellyButton_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("This is Raajpaal Gohlwar's bio box");
+            MessageBox.Show("This is John Kelly's Button Bio");
         }
     }
 }
