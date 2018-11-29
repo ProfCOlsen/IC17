@@ -15,6 +15,7 @@ namespace IC17
         public Form1()
         {
             InitializeComponent();
+            int x = 0;
         }
     }
 }
