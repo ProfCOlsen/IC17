@@ -39,5 +39,10 @@ namespace IC17
         {
             MessageBox.Show("This is Sanjana's Bio.");
         }
+
+        private void chrisGBioButton_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("This is Christian Gabrielsson's Bio.");
+        }
     }
 }
