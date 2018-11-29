@@ -17,5 +17,10 @@ namespace IC17
         {
             InitializeComponent();
         }
+
+        private void tannerSBtn_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("This is Tanner Stewart's bio.");
+        }
     }
 }

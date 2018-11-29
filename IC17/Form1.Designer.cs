@@ -29,24 +29,38 @@
         private void InitializeComponent()
         {
             this.referenceLbl = new System.Windows.Forms.Label();
+            this.showTannerSBioBtn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // referenceLbl
             // 
             this.referenceLbl.AutoSize = true;
-            this.referenceLbl.Location = new System.Drawing.Point(390, 420);
+            this.referenceLbl.Location = new System.Drawing.Point(520, 517);
+            this.referenceLbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.referenceLbl.Name = "referenceLbl";
-            this.referenceLbl.Size = new System.Drawing.Size(69, 13);
+            this.referenceLbl.Size = new System.Drawing.Size(93, 17);
             this.referenceLbl.TabIndex = 0;
             this.referenceLbl.Text = "Front of room";
             // 
+            // showTannerSBioBtn
+            // 
+            this.showTannerSBioBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.showTannerSBioBtn.Location = new System.Drawing.Point(98, 229);
+            this.showTannerSBioBtn.Name = "showTannerSBioBtn";
+            this.showTannerSBioBtn.Size = new System.Drawing.Size(63, 23);
+            this.showTannerSBioBtn.TabIndex = 1;
+            this.showTannerSBioBtn.Text = "Tanner S";
+            this.showTannerSBioBtn.UseVisualStyleBackColor = true;
+            this.showTannerSBioBtn.Click += new System.EventHandler(this.tannerSBtn_Click);
+            // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(833, 442);
+            this.ClientSize = new System.Drawing.Size(1111, 544);
+            this.Controls.Add(this.showTannerSBioBtn);
             this.Controls.Add(this.referenceLbl);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Form1";
             this.Text = "Launch Page - Bios";
             this.ResumeLayout(false);
@@ -57,6 +71,7 @@
         #endregion
 
         private System.Windows.Forms.Label referenceLbl;
+        private System.Windows.Forms.Button showTannerSBioBtn;
     }
 }
 
