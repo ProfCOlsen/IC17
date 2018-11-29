@@ -38,6 +38,7 @@
             this.karnellBtn = new System.Windows.Forms.Button();
             this.ZeyuWangButton = new System.Windows.Forms.Button();
             this.bryanasButton = new System.Windows.Forms.Button();
+            this.xiaocanBtn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // referenceLbl
@@ -77,7 +78,7 @@
             this.ZhixinButton.Location = new System.Drawing.Point(335, 15);
             this.ZhixinButton.Margin = new System.Windows.Forms.Padding(1);
             this.ZhixinButton.Name = "ZhixinButton";
-            this.ZhixinButton.Size = new System.Drawing.Size(53, 20);
+            this.ZhixinButton.Size = new System.Drawing.Size(70, 20);
             this.ZhixinButton.TabIndex = 2;
             this.ZhixinButton.Text = "Zhixin W";
             this.ZhixinButton.UseVisualStyleBackColor = true;
@@ -145,11 +146,23 @@
             this.bryanasButton.UseVisualStyleBackColor = true;
             this.bryanasButton.Click += new System.EventHandler(this.bryanasButton_Click);
             // 
+            // xiaocanBtn
+            // 
+            this.xiaocanBtn.Location = new System.Drawing.Point(219, 15);
+            this.xiaocanBtn.Margin = new System.Windows.Forms.Padding(1);
+            this.xiaocanBtn.Name = "xiaocanBtn";
+            this.xiaocanBtn.Size = new System.Drawing.Size(79, 20);
+            this.xiaocanBtn.TabIndex = 9;
+            this.xiaocanBtn.Text = "Xiaocan H";
+            this.xiaocanBtn.UseVisualStyleBackColor = true;
+            this.xiaocanBtn.Click += new System.EventHandler(this.xiaocanBtn_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(625, 386);
+            this.Controls.Add(this.xiaocanBtn);
             this.Controls.Add(this.bryanasButton);
             this.Controls.Add(this.ZeyuWangButton);
             this.Controls.Add(this.karnellBtn);
@@ -180,6 +193,7 @@
         private System.Windows.Forms.Button karnellBtn;
         private System.Windows.Forms.Button ZeyuWangButton;
         private System.Windows.Forms.Button bryanasButton;
+        private System.Windows.Forms.Button xiaocanBtn;
     }
 }
 
