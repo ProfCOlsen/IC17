@@ -29,52 +29,6 @@ namespace IC17
             MessageBox.Show("This is Raaj Paal Button Bio");
         }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         private void jKellyButton_Click(object sender, EventArgs e)
         {
             MessageBox.Show("This is John Kelly's Button Bio");
@@ -83,6 +37,11 @@ namespace IC17
         private void HaydenBurnsButton_Click(object sender, EventArgs e)
         {
             MessageBox.Show("This is Hayden Burns's Bio.");
+        }
+
+        private void jessicaSheldonButton_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("This is Jessica Sheldon's bio:");
         }
     }
 }
