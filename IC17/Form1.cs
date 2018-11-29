@@ -15,12 +15,8 @@ namespace IC17
         public Form1()
         {
             InitializeComponent();
+            int y = 0;
             int x = 0;
-        }
-
-        private void jessicaSheldonButton_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show("Jessica Sheldon Bio:");
         }
     }
 }
