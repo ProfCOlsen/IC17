@@ -30,6 +30,8 @@
         {
             this.samVaccaroButton = new System.Windows.Forms.Button();
             this.AngelWongButton = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.tylerSharpButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // samVaccaroButton
@@ -53,16 +55,38 @@
             this.AngelWongButton.UseVisualStyleBackColor = true;
             this.AngelWongButton.Click += new System.EventHandler(this.AngelWongButton_Click);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(666, 688);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(135, 20);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "Front of the Class";
+            // 
+            // tylerSharpButton
+            // 
+            this.tylerSharpButton.Location = new System.Drawing.Point(656, 88);
+            this.tylerSharpButton.Name = "tylerSharpButton";
+            this.tylerSharpButton.Size = new System.Drawing.Size(111, 39);
+            this.tylerSharpButton.TabIndex = 3;
+            this.tylerSharpButton.Text = "Tyler Sharp";
+            this.tylerSharpButton.UseVisualStyleBackColor = true;
+            this.tylerSharpButton.Click += new System.EventHandler(this.tylerSharpButton_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1250, 680);
+            this.ClientSize = new System.Drawing.Size(1350, 717);
+            this.Controls.Add(this.tylerSharpButton);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.AngelWongButton);
             this.Controls.Add(this.samVaccaroButton);
             this.Name = "Form1";
             this.Text = "Launch Page - Bios";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -70,6 +94,8 @@
 
         private System.Windows.Forms.Button samVaccaroButton;
         private System.Windows.Forms.Button AngelWongButton;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button tylerSharpButton;
     }
 }
 
