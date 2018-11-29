@@ -17,5 +17,10 @@ namespace IC17
         {
             InitializeComponent();
         }
+
+        private void dieuButton_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("This is Dieu Dang's bio.");
+        }
     }
 }
