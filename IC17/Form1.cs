@@ -79,5 +79,10 @@ namespace IC17
         {
             MessageBox.Show("This is John Kelly's Button Bio");
         }
+
+        private void HaydenBurnsButton_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("This is Hayden Burns's Bio.");
+        }
     }
 }
