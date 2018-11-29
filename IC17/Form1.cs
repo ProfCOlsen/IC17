@@ -32,7 +32,7 @@ namespace IC17
 
         private void ZhixinButton_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Hi this is Zhixin Wang.");
+            MessageBox.Show("Hi this is Zhixin Wang's Bio.");
         }
 
         private void sanjanaBtn_Click(object sender, EventArgs e)
