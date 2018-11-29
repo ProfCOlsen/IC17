@@ -28,20 +28,35 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.referenceLbl = new System.Windows.Forms.Label();
             this.SuspendLayout();
+            // 
+            // referenceLbl
+            // 
+            this.referenceLbl.AutoSize = true;
+            this.referenceLbl.Location = new System.Drawing.Point(504, 518);
+            this.referenceLbl.Name = "referenceLbl";
+            this.referenceLbl.Size = new System.Drawing.Size(117, 17);
+            this.referenceLbl.TabIndex = 0;
+            this.referenceLbl.Text = "Front of the room";
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1250, 680);
+            this.ClientSize = new System.Drawing.Size(1111, 544);
+            this.Controls.Add(this.referenceLbl);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Form1";
             this.Text = "Launch Page - Bios";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
+
+        private System.Windows.Forms.Label referenceLbl;
     }
 }
 
