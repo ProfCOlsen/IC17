@@ -16,6 +16,7 @@ namespace IC17
         {
             InitializeComponent();
             int y = 0;
+            int x = 0;
         }
     }
 }
