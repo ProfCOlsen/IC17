@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.referenceLbl = new System.Windows.Forms.Label();
+            this.jKellyButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // referenceLbl
@@ -40,11 +41,22 @@
             this.referenceLbl.TabIndex = 0;
             this.referenceLbl.Text = "Front of the room";
             // 
+            // jKellyButton
+            // 
+            this.jKellyButton.Location = new System.Drawing.Point(535, 245);
+            this.jKellyButton.Name = "jKellyButton";
+            this.jKellyButton.Size = new System.Drawing.Size(35, 23);
+            this.jKellyButton.TabIndex = 1;
+            this.jKellyButton.Text = "Click Me!";
+            this.jKellyButton.UseVisualStyleBackColor = true;
+            this.jKellyButton.Click += new System.EventHandler(this.jKellyButton_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1111, 544);
+            this.Controls.Add(this.jKellyButton);
             this.Controls.Add(this.referenceLbl);
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Form1";
@@ -57,6 +69,7 @@
         #endregion
 
         private System.Windows.Forms.Label referenceLbl;
+        private System.Windows.Forms.Button jKellyButton;
     }
 }
 

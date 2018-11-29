@@ -18,5 +18,57 @@ namespace IC17
             int y = 0;
             int x = 0;
         }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        private void jKellyButton_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("This is John Kelly's Button Bio");
+        }
     }
 }
