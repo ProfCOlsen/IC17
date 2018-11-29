@@ -30,6 +30,7 @@
         {
             this.referenceLbl = new System.Windows.Forms.Label();
             this.chadHayesButton = new System.Windows.Forms.Button();
+            this.raajpaalGohlwarButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // referenceLbl
@@ -52,10 +53,22 @@
             this.chadHayesButton.UseVisualStyleBackColor = true;
             this.chadHayesButton.Click += new System.EventHandler(this.chadHayesButton_Click);
             // 
+            // raajpaalGohlwarButton
+            // 
+            this.raajpaalGohlwarButton.Location = new System.Drawing.Point(483, 486);
+            this.raajpaalGohlwarButton.Name = "raajpaalGohlwarButton";
+            this.raajpaalGohlwarButton.Size = new System.Drawing.Size(147, 29);
+            this.raajpaalGohlwarButton.TabIndex = 1;
+            this.raajpaalGohlwarButton.Text = "Raajpaal Gohlwar";
+            this.raajpaalGohlwarButton.UseVisualStyleBackColor = true;
+            this.raajpaalGohlwarButton.Click += new System.EventHandler(this.raajpaalGohlwarButton_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(1111, 544);
+            this.Controls.Add(this.raajpaalGohlwarButton);
             this.ClientSize = new System.Drawing.Size(833, 442);
             this.Controls.Add(this.chadHayesButton);
             this.Controls.Add(this.referenceLbl);
@@ -71,6 +84,7 @@
 
         private System.Windows.Forms.Label referenceLbl;
         private System.Windows.Forms.Button chadHayesButton;
+        private System.Windows.Forms.Button raajpaalGohlwarButton;
     }
 }
 
