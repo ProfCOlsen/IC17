@@ -17,5 +17,10 @@ namespace IC17
         {
             InitializeComponent();
         }
+
+        private void andrewGBtn_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Hey this is Andrew Gomez's Bio");
+        }
     }
 }
