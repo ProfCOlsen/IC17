@@ -29,24 +29,37 @@
         private void InitializeComponent()
         {
             this.referenceLbl = new System.Windows.Forms.Label();
+            this.chadHayesButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // referenceLbl
             // 
             this.referenceLbl.AutoSize = true;
-            this.referenceLbl.Location = new System.Drawing.Point(504, 518);
+            this.referenceLbl.Location = new System.Drawing.Point(378, 421);
+            this.referenceLbl.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.referenceLbl.Name = "referenceLbl";
-            this.referenceLbl.Size = new System.Drawing.Size(117, 17);
+            this.referenceLbl.Size = new System.Drawing.Size(87, 13);
             this.referenceLbl.TabIndex = 0;
             this.referenceLbl.Text = "Front of the room";
             // 
+            // chadHayesButton
+            // 
+            this.chadHayesButton.Location = new System.Drawing.Point(499, 397);
+            this.chadHayesButton.Name = "chadHayesButton";
+            this.chadHayesButton.Size = new System.Drawing.Size(102, 21);
+            this.chadHayesButton.TabIndex = 1;
+            this.chadHayesButton.Text = "chadHayesButtonBio";
+            this.chadHayesButton.UseVisualStyleBackColor = true;
+            this.chadHayesButton.Click += new System.EventHandler(this.chadHayesButton_Click);
+            // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1111, 544);
+            this.ClientSize = new System.Drawing.Size(833, 442);
+            this.Controls.Add(this.chadHayesButton);
             this.Controls.Add(this.referenceLbl);
-            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form1";
             this.Text = "Launch Page - Bios";
             this.ResumeLayout(false);
@@ -57,6 +70,7 @@
         #endregion
 
         private System.Windows.Forms.Label referenceLbl;
+        private System.Windows.Forms.Button chadHayesButton;
     }
 }
 

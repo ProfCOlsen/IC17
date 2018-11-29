@@ -17,5 +17,10 @@ namespace IC17
             InitializeComponent();
             int x = 0;
         }
+
+        private void chadHayesButton_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("This is Chad Hayes Button Bio");
+        }
     }
 }
