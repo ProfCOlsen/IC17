@@ -44,5 +44,10 @@ namespace IC17
         {
             MessageBox.Show("This is Christian Gabrielsson's Bio.");
         }
+
+        private void lorenzoButton_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Hello this is Lorenzo's Bio");
+        }
     }
 }
