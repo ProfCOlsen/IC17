@@ -64,5 +64,10 @@ namespace IC17
         {
             MessageBox.Show("Hey. This is Xiaocan's Bio.");
         }
+
+        private void yihanbutton_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("There is yihan jiang `s bio");
+        }
     }
 }
