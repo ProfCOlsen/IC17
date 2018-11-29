@@ -32,6 +32,7 @@
             this.showAndrewGBioBtn = new System.Windows.Forms.Button();
             this.dieuButton = new System.Windows.Forms.Button();
             this.ZhixinButton = new System.Windows.Forms.Button();
+            this.sanjanaBtn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // referenceLbl
@@ -48,7 +49,7 @@
             // 
             this.showAndrewGBioBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.showAndrewGBioBtn.Location = new System.Drawing.Point(24, 23);
-            this.showAndrewGBioBtn.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.showAndrewGBioBtn.Margin = new System.Windows.Forms.Padding(6);
             this.showAndrewGBioBtn.Name = "showAndrewGBioBtn";
             this.showAndrewGBioBtn.Size = new System.Drawing.Size(238, 52);
             this.showAndrewGBioBtn.TabIndex = 1;
@@ -59,7 +60,7 @@
             // dieuButton
             // 
             this.dieuButton.Location = new System.Drawing.Point(852, 730);
-            this.dieuButton.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.dieuButton.Margin = new System.Windows.Forms.Padding(6);
             this.dieuButton.Name = "dieuButton";
             this.dieuButton.Size = new System.Drawing.Size(150, 45);
             this.dieuButton.TabIndex = 1;
@@ -77,16 +78,27 @@
             this.ZhixinButton.UseVisualStyleBackColor = true;
             this.ZhixinButton.Click += new System.EventHandler(this.ZhixinButton_Click);
             // 
+            // sanjanaBtn
+            // 
+            this.sanjanaBtn.Location = new System.Drawing.Point(624, 406);
+            this.sanjanaBtn.Name = "sanjanaBtn";
+            this.sanjanaBtn.Size = new System.Drawing.Size(169, 47);
+            this.sanjanaBtn.TabIndex = 3;
+            this.sanjanaBtn.Text = "Sanjana";
+            this.sanjanaBtn.UseVisualStyleBackColor = true;
+            this.sanjanaBtn.Click += new System.EventHandler(this.sanjanaBtn_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1666, 856);
+            this.ClientSize = new System.Drawing.Size(1666, 963);
+            this.Controls.Add(this.sanjanaBtn);
             this.Controls.Add(this.ZhixinButton);
             this.Controls.Add(this.showAndrewGBioBtn);
             this.Controls.Add(this.dieuButton);
             this.Controls.Add(this.referenceLbl);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.Text = "Launch Page - Bios";
             this.ResumeLayout(false);
@@ -100,6 +112,7 @@
         private System.Windows.Forms.Button showAndrewGBioBtn;
         private System.Windows.Forms.Button dieuButton;
         private System.Windows.Forms.Button ZhixinButton;
+        private System.Windows.Forms.Button sanjanaBtn;
     }
 }
 

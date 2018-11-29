@@ -34,5 +34,10 @@ namespace IC17
         {
             MessageBox.Show("Hi this is Zhixin Wang.");
         }
+
+        private void sanjanaBtn_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("This is Sanjana's Bio.");
+        }
     }
 }
