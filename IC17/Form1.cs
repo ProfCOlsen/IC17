@@ -85,5 +85,9 @@ namespace IC17
 			MessageBox.Show("This is Sameer Zahir's Bio.");
 		}
 
-	}
+        private void xuhuiButton_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("This is Xuhui Liu's Bio.");
+        }
+    }
 }
