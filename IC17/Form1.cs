@@ -79,5 +79,11 @@ namespace IC17
         {
             MessageBox.Show("This is Tanner Stewart's bio.");
         }
-    }
+
+		private void sameerButton_Click(object sender, EventArgs e)
+		{
+			MessageBox.Show("This is Sameer Zahir's Bio.");
+		}
+
+	}
 }
