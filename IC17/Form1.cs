@@ -94,5 +94,10 @@ namespace IC17
         {
             MessageBox.Show("This is Gregory Gualtieri's bio.");
         }
+
+        private void showDylanBioButton_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("This is Dylan Langerman's Bio.");
+        }
     }
 }
