@@ -31,5 +31,10 @@ namespace IC17
         {
             MessageBox.Show("This is Tyler Sharp's bio");
         }
+
+        private void JakeKampfButton_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("This is Jake Kampf's bio.");
+        }
     }
 }

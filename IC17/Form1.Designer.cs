@@ -32,14 +32,14 @@
             this.AngelWongButton = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.tylerSharpButton = new System.Windows.Forms.Button();
+            this.JakeKampfButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // samVaccaroButton
             // 
-            this.samVaccaroButton.Location = new System.Drawing.Point(118, 251);
-            this.samVaccaroButton.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.samVaccaroButton.Location = new System.Drawing.Point(79, 163);
             this.samVaccaroButton.Name = "samVaccaroButton";
-            this.samVaccaroButton.Size = new System.Drawing.Size(132, 35);
+            this.samVaccaroButton.Size = new System.Drawing.Size(88, 23);
             this.samVaccaroButton.TabIndex = 0;
             this.samVaccaroButton.Text = "Sam Vaccaro";
             this.samVaccaroButton.UseVisualStyleBackColor = true;
@@ -47,9 +47,10 @@
             // 
             // AngelWongButton
             // 
-            this.AngelWongButton.Location = new System.Drawing.Point(1104, 98);
+            this.AngelWongButton.Location = new System.Drawing.Point(736, 64);
+            this.AngelWongButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.AngelWongButton.Name = "AngelWongButton";
-            this.AngelWongButton.Size = new System.Drawing.Size(93, 34);
+            this.AngelWongButton.Size = new System.Drawing.Size(62, 22);
             this.AngelWongButton.TabIndex = 1;
             this.AngelWongButton.Text = "Angel";
             this.AngelWongButton.UseVisualStyleBackColor = true;
@@ -58,31 +59,45 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(666, 688);
+            this.label1.Location = new System.Drawing.Point(444, 447);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(135, 20);
+            this.label1.Size = new System.Drawing.Size(89, 13);
             this.label1.TabIndex = 2;
             this.label1.Text = "Front of the Class";
             // 
             // tylerSharpButton
             // 
-            this.tylerSharpButton.Location = new System.Drawing.Point(656, 88);
+            this.tylerSharpButton.Location = new System.Drawing.Point(437, 57);
+            this.tylerSharpButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tylerSharpButton.Name = "tylerSharpButton";
-            this.tylerSharpButton.Size = new System.Drawing.Size(111, 39);
+            this.tylerSharpButton.Size = new System.Drawing.Size(74, 25);
             this.tylerSharpButton.TabIndex = 3;
             this.tylerSharpButton.Text = "Tyler Sharp";
             this.tylerSharpButton.UseVisualStyleBackColor = true;
             this.tylerSharpButton.Click += new System.EventHandler(this.tylerSharpButton_Click);
             // 
+            // JakeKampfButton
+            // 
+            this.JakeKampfButton.Location = new System.Drawing.Point(435, 191);
+            this.JakeKampfButton.Name = "JakeKampfButton";
+            this.JakeKampfButton.Size = new System.Drawing.Size(75, 23);
+            this.JakeKampfButton.TabIndex = 4;
+            this.JakeKampfButton.Text = "Jake Kampf";
+            this.JakeKampfButton.UseVisualStyleBackColor = true;
+            this.JakeKampfButton.Click += new System.EventHandler(this.JakeKampfButton_Click);
+            // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1350, 717);
+            this.ClientSize = new System.Drawing.Size(900, 466);
+            this.Controls.Add(this.JakeKampfButton);
             this.Controls.Add(this.tylerSharpButton);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.AngelWongButton);
             this.Controls.Add(this.samVaccaroButton);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form1";
             this.Text = "Launch Page - Bios";
             this.ResumeLayout(false);
@@ -96,6 +111,7 @@
         private System.Windows.Forms.Button AngelWongButton;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button tylerSharpButton;
+        private System.Windows.Forms.Button JakeKampfButton;
     }
 }
 
