@@ -69,5 +69,10 @@ namespace IC17
         {
             MessageBox.Show("There is yihan jiang `s bio");
         }
+
+        private void ZeyuWangButton_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("There is Zeyu Wang `s bio");
+        }
     }
 }
