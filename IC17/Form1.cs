@@ -89,5 +89,10 @@ namespace IC17
         {
             MessageBox.Show("This is Xuhui Liu's Bio.");
         }
+
+        private void gregoryGButton_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("This is Gregory Gualtieri's bio.");
+        }
     }
 }
