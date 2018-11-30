@@ -45,6 +45,7 @@
             this.xuhuiButton = new System.Windows.Forms.Button();
             this.gregoryGButton = new System.Windows.Forms.Button();
             this.showDylanBioButton = new System.Windows.Forms.Button();
+            this.ShowBryceButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // referenceLbl
@@ -60,7 +61,7 @@
             // 
             this.showAndrewGBioBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.showAndrewGBioBtn.Location = new System.Drawing.Point(7, 7);
-            this.showAndrewGBioBtn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.showAndrewGBioBtn.Margin = new System.Windows.Forms.Padding(2);
             this.showAndrewGBioBtn.Name = "showAndrewGBioBtn";
             this.showAndrewGBioBtn.Size = new System.Drawing.Size(67, 16);
             this.showAndrewGBioBtn.TabIndex = 1;
@@ -71,7 +72,7 @@
             // dieuButton
             // 
             this.dieuButton.Location = new System.Drawing.Point(240, 230);
-            this.dieuButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dieuButton.Margin = new System.Windows.Forms.Padding(2);
             this.dieuButton.Name = "dieuButton";
             this.dieuButton.Size = new System.Drawing.Size(42, 15);
             this.dieuButton.TabIndex = 1;
@@ -104,7 +105,7 @@
             // chrisGBioButton
             // 
             this.chrisGBioButton.Location = new System.Drawing.Point(348, 128);
-            this.chrisGBioButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.chrisGBioButton.Margin = new System.Windows.Forms.Padding(2);
             this.chrisGBioButton.Name = "chrisGBioButton";
             this.chrisGBioButton.Size = new System.Drawing.Size(51, 15);
             this.chrisGBioButton.TabIndex = 4;
@@ -115,7 +116,7 @@
             // lorenzoButton
             // 
             this.lorenzoButton.Location = new System.Drawing.Point(404, 24);
-            this.lorenzoButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.lorenzoButton.Margin = new System.Windows.Forms.Padding(2);
             this.lorenzoButton.Name = "lorenzoButton";
             this.lorenzoButton.Size = new System.Drawing.Size(56, 17);
             this.lorenzoButton.TabIndex = 5;
@@ -137,7 +138,7 @@
             // ZeyuWangButton
             // 
             this.ZeyuWangButton.Location = new System.Drawing.Point(9, 220);
-            this.ZeyuWangButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ZeyuWangButton.Margin = new System.Windows.Forms.Padding(2);
             this.ZeyuWangButton.Name = "ZeyuWangButton";
             this.ZeyuWangButton.Size = new System.Drawing.Size(46, 35);
             this.ZeyuWangButton.TabIndex = 7;
@@ -148,7 +149,7 @@
             // bryanasButton
             // 
             this.bryanasButton.Location = new System.Drawing.Point(370, 69);
-            this.bryanasButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.bryanasButton.Margin = new System.Windows.Forms.Padding(2);
             this.bryanasButton.Name = "bryanasButton";
             this.bryanasButton.Size = new System.Drawing.Size(56, 17);
             this.bryanasButton.TabIndex = 8;
@@ -170,7 +171,7 @@
             // yihanbutton
             // 
             this.yihanbutton.Location = new System.Drawing.Point(158, 61);
-            this.yihanbutton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.yihanbutton.Margin = new System.Windows.Forms.Padding(2);
             this.yihanbutton.Name = "yihanbutton";
             this.yihanbutton.Size = new System.Drawing.Size(64, 12);
             this.yihanbutton.TabIndex = 10;
@@ -182,7 +183,7 @@
             // 
             this.showTannerSBioBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.showTannerSBioBtn.Location = new System.Drawing.Point(74, 186);
-            this.showTannerSBioBtn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.showTannerSBioBtn.Margin = new System.Windows.Forms.Padding(2);
             this.showTannerSBioBtn.Name = "showTannerSBioBtn";
             this.showTannerSBioBtn.Size = new System.Drawing.Size(46, 19);
             this.showTannerSBioBtn.TabIndex = 1;
@@ -204,7 +205,7 @@
             // xuhuiButton
             // 
             this.xuhuiButton.Location = new System.Drawing.Point(148, 228);
-            this.xuhuiButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.xuhuiButton.Margin = new System.Windows.Forms.Padding(2);
             this.xuhuiButton.Name = "xuhuiButton";
             this.xuhuiButton.Size = new System.Drawing.Size(44, 17);
             this.xuhuiButton.TabIndex = 12;
@@ -215,7 +216,7 @@
             // gregoryGButton
             // 
             this.gregoryGButton.Location = new System.Drawing.Point(441, 91);
-            this.gregoryGButton.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.gregoryGButton.Margin = new System.Windows.Forms.Padding(1);
             this.gregoryGButton.Name = "gregoryGButton";
             this.gregoryGButton.Size = new System.Drawing.Size(53, 19);
             this.gregoryGButton.TabIndex = 13;
@@ -233,11 +234,22 @@
             this.showDylanBioButton.UseVisualStyleBackColor = true;
             this.showDylanBioButton.Click += new System.EventHandler(this.showDylanBioButton_Click);
             // 
+            // ShowBryceButton
+            // 
+            this.ShowBryceButton.Location = new System.Drawing.Point(88, 69);
+            this.ShowBryceButton.Name = "ShowBryceButton";
+            this.ShowBryceButton.Size = new System.Drawing.Size(53, 17);
+            this.ShowBryceButton.TabIndex = 15;
+            this.ShowBryceButton.Text = "Bryce";
+            this.ShowBryceButton.UseVisualStyleBackColor = true;
+            this.ShowBryceButton.Click += new System.EventHandler(this.ShowBryceButton_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(632, 432);
+            this.Controls.Add(this.ShowBryceButton);
             this.Controls.Add(this.showDylanBioButton);
             this.Controls.Add(this.gregoryGButton);
             this.Controls.Add(this.xuhuiButton);
@@ -255,7 +267,7 @@
             this.Controls.Add(this.dieuButton);
             this.Controls.Add(this.showTannerSBioBtn);
             this.Controls.Add(this.referenceLbl);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form1";
             this.Text = "Launch Page - Bios";
             this.ResumeLayout(false);
@@ -282,6 +294,7 @@
         private System.Windows.Forms.Button xuhuiButton;
         private System.Windows.Forms.Button gregoryGButton;
         private System.Windows.Forms.Button showDylanBioButton;
+        private System.Windows.Forms.Button ShowBryceButton;
     }
 }
 

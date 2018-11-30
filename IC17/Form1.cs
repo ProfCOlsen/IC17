@@ -99,5 +99,10 @@ namespace IC17
         {
             MessageBox.Show("This is Dylan Langerman's Bio.");
         }
+
+        private void ShowBryceButton_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("This is Bryce Gallagher's Bio");
+        }
     }
 }
