@@ -124,5 +124,11 @@ namespace IC17
         {
             MessageBox.Show("This is Matt Stinchcomb's Bio");
         }
+
+        
+        private void showSamQBioButton_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("This is Sam Quince's Bio");
+        }
     }
 }

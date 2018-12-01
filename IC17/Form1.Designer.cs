@@ -50,25 +50,26 @@
             this.alecxisButton = new System.Windows.Forms.Button();
             this.sarahWeinerButton = new System.Windows.Forms.Button();
             this.showMattStinchcombBioButton = new System.Windows.Forms.Button();
+            this.showSamButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // referenceLbl
             // 
             this.referenceLbl.AutoSize = true;
-            this.referenceLbl.Location = new System.Drawing.Point(780, 808);
-            this.referenceLbl.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
+            this.referenceLbl.Location = new System.Drawing.Point(390, 420);
+            this.referenceLbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.referenceLbl.Name = "referenceLbl";
-            this.referenceLbl.Size = new System.Drawing.Size(140, 25);
+            this.referenceLbl.Size = new System.Drawing.Size(69, 13);
             this.referenceLbl.TabIndex = 0;
             this.referenceLbl.Text = "Front of room";
             // 
             // showAndrewGBioBtn
             // 
             this.showAndrewGBioBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.showAndrewGBioBtn.Location = new System.Drawing.Point(13, 14);
-            this.showAndrewGBioBtn.Margin = new System.Windows.Forms.Padding(4);
+            this.showAndrewGBioBtn.Location = new System.Drawing.Point(6, 7);
+            this.showAndrewGBioBtn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.showAndrewGBioBtn.Name = "showAndrewGBioBtn";
-            this.showAndrewGBioBtn.Size = new System.Drawing.Size(133, 31);
+            this.showAndrewGBioBtn.Size = new System.Drawing.Size(66, 16);
             this.showAndrewGBioBtn.TabIndex = 1;
             this.showAndrewGBioBtn.Text = "Andrew G Bio";
             this.showAndrewGBioBtn.UseVisualStyleBackColor = true;
@@ -76,10 +77,10 @@
             // 
             // dieuButton
             // 
-            this.dieuButton.Location = new System.Drawing.Point(480, 442);
-            this.dieuButton.Margin = new System.Windows.Forms.Padding(4);
+            this.dieuButton.Location = new System.Drawing.Point(240, 230);
+            this.dieuButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dieuButton.Name = "dieuButton";
-            this.dieuButton.Size = new System.Drawing.Size(84, 29);
+            this.dieuButton.Size = new System.Drawing.Size(42, 15);
             this.dieuButton.TabIndex = 1;
             this.dieuButton.Text = "Dieu Dang";
             this.dieuButton.UseVisualStyleBackColor = true;
@@ -87,10 +88,10 @@
             // 
             // ZhixinButton
             // 
-            this.ZhixinButton.Location = new System.Drawing.Point(500, 21);
-            this.ZhixinButton.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.ZhixinButton.Location = new System.Drawing.Point(250, 11);
+            this.ZhixinButton.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
             this.ZhixinButton.Name = "ZhixinButton";
-            this.ZhixinButton.Size = new System.Drawing.Size(104, 29);
+            this.ZhixinButton.Size = new System.Drawing.Size(52, 15);
             this.ZhixinButton.TabIndex = 2;
             this.ZhixinButton.Text = "Zhixin W";
             this.ZhixinButton.UseVisualStyleBackColor = true;
@@ -98,10 +99,10 @@
             // 
             // sanjanaBtn
             // 
-            this.sanjanaBtn.Location = new System.Drawing.Point(352, 246);
-            this.sanjanaBtn.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.sanjanaBtn.Location = new System.Drawing.Point(176, 128);
+            this.sanjanaBtn.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
             this.sanjanaBtn.Name = "sanjanaBtn";
-            this.sanjanaBtn.Size = new System.Drawing.Size(96, 29);
+            this.sanjanaBtn.Size = new System.Drawing.Size(48, 15);
             this.sanjanaBtn.TabIndex = 3;
             this.sanjanaBtn.Text = "Sanjana";
             this.sanjanaBtn.UseVisualStyleBackColor = true;
@@ -109,10 +110,10 @@
             // 
             // chrisGBioButton
             // 
-            this.chrisGBioButton.Location = new System.Drawing.Point(696, 246);
-            this.chrisGBioButton.Margin = new System.Windows.Forms.Padding(4);
+            this.chrisGBioButton.Location = new System.Drawing.Point(348, 128);
+            this.chrisGBioButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.chrisGBioButton.Name = "chrisGBioButton";
-            this.chrisGBioButton.Size = new System.Drawing.Size(103, 29);
+            this.chrisGBioButton.Size = new System.Drawing.Size(52, 15);
             this.chrisGBioButton.TabIndex = 4;
             this.chrisGBioButton.Text = "Chris G Bio";
             this.chrisGBioButton.UseVisualStyleBackColor = true;
@@ -120,10 +121,10 @@
             // 
             // lorenzoButton
             // 
-            this.lorenzoButton.Location = new System.Drawing.Point(808, 46);
-            this.lorenzoButton.Margin = new System.Windows.Forms.Padding(4);
+            this.lorenzoButton.Location = new System.Drawing.Point(404, 24);
+            this.lorenzoButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.lorenzoButton.Name = "lorenzoButton";
-            this.lorenzoButton.Size = new System.Drawing.Size(112, 32);
+            this.lorenzoButton.Size = new System.Drawing.Size(56, 17);
             this.lorenzoButton.TabIndex = 5;
             this.lorenzoButton.Text = "Lorenzo";
             this.lorenzoButton.UseVisualStyleBackColor = true;
@@ -131,10 +132,10 @@
             // 
             // karnellBtn
             // 
-            this.karnellBtn.Location = new System.Drawing.Point(648, 135);
-            this.karnellBtn.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.karnellBtn.Location = new System.Drawing.Point(324, 70);
+            this.karnellBtn.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
             this.karnellBtn.Name = "karnellBtn";
-            this.karnellBtn.Size = new System.Drawing.Size(88, 31);
+            this.karnellBtn.Size = new System.Drawing.Size(44, 16);
             this.karnellBtn.TabIndex = 6;
             this.karnellBtn.Text = "Karnell";
             this.karnellBtn.UseVisualStyleBackColor = true;
@@ -142,10 +143,10 @@
             // 
             // ZeyuWangButton
             // 
-            this.ZeyuWangButton.Location = new System.Drawing.Point(19, 422);
-            this.ZeyuWangButton.Margin = new System.Windows.Forms.Padding(4);
+            this.ZeyuWangButton.Location = new System.Drawing.Point(10, 219);
+            this.ZeyuWangButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.ZeyuWangButton.Name = "ZeyuWangButton";
-            this.ZeyuWangButton.Size = new System.Drawing.Size(92, 68);
+            this.ZeyuWangButton.Size = new System.Drawing.Size(46, 35);
             this.ZeyuWangButton.TabIndex = 7;
             this.ZeyuWangButton.Text = "Zeyu W";
             this.ZeyuWangButton.UseVisualStyleBackColor = true;
@@ -153,10 +154,10 @@
             // 
             // bryanasButton
             // 
-            this.bryanasButton.Location = new System.Drawing.Point(740, 132);
-            this.bryanasButton.Margin = new System.Windows.Forms.Padding(4);
+            this.bryanasButton.Location = new System.Drawing.Point(370, 69);
+            this.bryanasButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bryanasButton.Name = "bryanasButton";
-            this.bryanasButton.Size = new System.Drawing.Size(112, 32);
+            this.bryanasButton.Size = new System.Drawing.Size(56, 17);
             this.bryanasButton.TabIndex = 8;
             this.bryanasButton.Text = "Bryana Williamson";
             this.bryanasButton.UseVisualStyleBackColor = true;
@@ -164,10 +165,10 @@
             // 
             // xiaocanBtn
             // 
-            this.xiaocanBtn.Location = new System.Drawing.Point(328, 21);
-            this.xiaocanBtn.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.xiaocanBtn.Location = new System.Drawing.Point(164, 11);
+            this.xiaocanBtn.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
             this.xiaocanBtn.Name = "xiaocanBtn";
-            this.xiaocanBtn.Size = new System.Drawing.Size(116, 29);
+            this.xiaocanBtn.Size = new System.Drawing.Size(58, 15);
             this.xiaocanBtn.TabIndex = 9;
             this.xiaocanBtn.Text = "Xiaocan H";
             this.xiaocanBtn.UseVisualStyleBackColor = true;
@@ -175,10 +176,10 @@
             // 
             // yihanbutton
             // 
-            this.yihanbutton.Location = new System.Drawing.Point(316, 118);
-            this.yihanbutton.Margin = new System.Windows.Forms.Padding(4);
+            this.yihanbutton.Location = new System.Drawing.Point(158, 61);
+            this.yihanbutton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.yihanbutton.Name = "yihanbutton";
-            this.yihanbutton.Size = new System.Drawing.Size(128, 22);
+            this.yihanbutton.Size = new System.Drawing.Size(64, 11);
             this.yihanbutton.TabIndex = 10;
             this.yihanbutton.Text = "Yihan Jiang";
             this.yihanbutton.UseVisualStyleBackColor = true;
@@ -187,10 +188,10 @@
             // showTannerSBioBtn
             // 
             this.showTannerSBioBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.showTannerSBioBtn.Location = new System.Drawing.Point(148, 358);
-            this.showTannerSBioBtn.Margin = new System.Windows.Forms.Padding(4);
+            this.showTannerSBioBtn.Location = new System.Drawing.Point(74, 186);
+            this.showTannerSBioBtn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.showTannerSBioBtn.Name = "showTannerSBioBtn";
-            this.showTannerSBioBtn.Size = new System.Drawing.Size(92, 36);
+            this.showTannerSBioBtn.Size = new System.Drawing.Size(46, 19);
             this.showTannerSBioBtn.TabIndex = 1;
             this.showTannerSBioBtn.Text = "Tanner S";
             this.showTannerSBioBtn.UseVisualStyleBackColor = true;
@@ -199,10 +200,10 @@
             // sameerButton
             // 
             this.sameerButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.sameerButton.Location = new System.Drawing.Point(696, 22);
-            this.sameerButton.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
+            this.sameerButton.Location = new System.Drawing.Point(348, 11);
+            this.sameerButton.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.sameerButton.Name = "sameerButton";
-            this.sameerButton.Size = new System.Drawing.Size(104, 35);
+            this.sameerButton.Size = new System.Drawing.Size(52, 18);
             this.sameerButton.TabIndex = 11;
             this.sameerButton.Text = "Sameer Z";
             this.sameerButton.UseVisualStyleBackColor = true;
@@ -210,10 +211,10 @@
             // 
             // xuhuiButton
             // 
-            this.xuhuiButton.Location = new System.Drawing.Point(296, 439);
-            this.xuhuiButton.Margin = new System.Windows.Forms.Padding(4);
+            this.xuhuiButton.Location = new System.Drawing.Point(148, 228);
+            this.xuhuiButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.xuhuiButton.Name = "xuhuiButton";
-            this.xuhuiButton.Size = new System.Drawing.Size(88, 32);
+            this.xuhuiButton.Size = new System.Drawing.Size(44, 17);
             this.xuhuiButton.TabIndex = 12;
             this.xuhuiButton.Text = "Xuhui";
             this.xuhuiButton.UseVisualStyleBackColor = true;
@@ -221,10 +222,10 @@
             // 
             // gregoryGButton
             // 
-            this.gregoryGButton.Location = new System.Drawing.Point(883, 175);
-            this.gregoryGButton.Margin = new System.Windows.Forms.Padding(1, 2, 1, 2);
+            this.gregoryGButton.Location = new System.Drawing.Point(442, 91);
+            this.gregoryGButton.Margin = new System.Windows.Forms.Padding(0, 1, 0, 1);
             this.gregoryGButton.Name = "gregoryGButton";
-            this.gregoryGButton.Size = new System.Drawing.Size(107, 36);
+            this.gregoryGButton.Size = new System.Drawing.Size(54, 19);
             this.gregoryGButton.TabIndex = 13;
             this.gregoryGButton.Text = "Gregory G";
             this.gregoryGButton.UseVisualStyleBackColor = true;
@@ -232,10 +233,10 @@
             // 
             // showDylanBioButton
             // 
-            this.showDylanBioButton.Location = new System.Drawing.Point(808, 444);
-            this.showDylanBioButton.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
+            this.showDylanBioButton.Location = new System.Drawing.Point(404, 231);
+            this.showDylanBioButton.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.showDylanBioButton.Name = "showDylanBioButton";
-            this.showDylanBioButton.Size = new System.Drawing.Size(151, 44);
+            this.showDylanBioButton.Size = new System.Drawing.Size(76, 23);
             this.showDylanBioButton.TabIndex = 14;
             this.showDylanBioButton.Text = "Dylan";
             this.showDylanBioButton.UseVisualStyleBackColor = true;
@@ -243,10 +244,10 @@
             // 
             // ShowBryceButton
             // 
-            this.ShowBryceButton.Location = new System.Drawing.Point(176, 132);
-            this.ShowBryceButton.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
+            this.ShowBryceButton.Location = new System.Drawing.Point(88, 69);
+            this.ShowBryceButton.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.ShowBryceButton.Name = "ShowBryceButton";
-            this.ShowBryceButton.Size = new System.Drawing.Size(107, 32);
+            this.ShowBryceButton.Size = new System.Drawing.Size(54, 17);
             this.ShowBryceButton.TabIndex = 15;
             this.ShowBryceButton.Text = "Bryce";
             this.ShowBryceButton.UseVisualStyleBackColor = true;
@@ -254,10 +255,10 @@
             // 
             // yimingGuoBtn
             // 
-            this.yimingGuoBtn.Location = new System.Drawing.Point(588, 399);
-            this.yimingGuoBtn.Margin = new System.Windows.Forms.Padding(4);
+            this.yimingGuoBtn.Location = new System.Drawing.Point(294, 207);
+            this.yimingGuoBtn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.yimingGuoBtn.Name = "yimingGuoBtn";
-            this.yimingGuoBtn.Size = new System.Drawing.Size(88, 32);
+            this.yimingGuoBtn.Size = new System.Drawing.Size(44, 17);
             this.yimingGuoBtn.TabIndex = 16;
             this.yimingGuoBtn.Text = "Yiming Guo";
             this.yimingGuoBtn.UseVisualStyleBackColor = true;
@@ -265,10 +266,10 @@
             // 
             // alecxisButton
             // 
-            this.alecxisButton.Location = new System.Drawing.Point(19, 666);
-            this.alecxisButton.Margin = new System.Windows.Forms.Padding(4);
+            this.alecxisButton.Location = new System.Drawing.Point(10, 346);
+            this.alecxisButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.alecxisButton.Name = "alecxisButton";
-            this.alecxisButton.Size = new System.Drawing.Size(100, 36);
+            this.alecxisButton.Size = new System.Drawing.Size(50, 19);
             this.alecxisButton.TabIndex = 17;
             this.alecxisButton.Text = "Alecxis";
             this.alecxisButton.UseVisualStyleBackColor = true;
@@ -276,10 +277,10 @@
             // 
             // sarahWeinerButton
             // 
-            this.sarahWeinerButton.Location = new System.Drawing.Point(997, 221);
-            this.sarahWeinerButton.Margin = new System.Windows.Forms.Padding(1, 2, 1, 2);
+            this.sarahWeinerButton.Location = new System.Drawing.Point(498, 115);
+            this.sarahWeinerButton.Margin = new System.Windows.Forms.Padding(0, 1, 0, 1);
             this.sarahWeinerButton.Name = "sarahWeinerButton";
-            this.sarahWeinerButton.Size = new System.Drawing.Size(107, 36);
+            this.sarahWeinerButton.Size = new System.Drawing.Size(54, 19);
             this.sarahWeinerButton.TabIndex = 18;
             this.sarahWeinerButton.Text = "Sarah";
             this.sarahWeinerButton.UseVisualStyleBackColor = true;
@@ -287,19 +288,31 @@
             // 
             // showMattStinchcombBioButton
             // 
-            this.showMattStinchcombBioButton.Location = new System.Drawing.Point(606, 66);
+            this.showMattStinchcombBioButton.Location = new System.Drawing.Point(303, 34);
+            this.showMattStinchcombBioButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.showMattStinchcombBioButton.Name = "showMattStinchcombBioButton";
-            this.showMattStinchcombBioButton.Size = new System.Drawing.Size(86, 35);
+            this.showMattStinchcombBioButton.Size = new System.Drawing.Size(43, 18);
             this.showMattStinchcombBioButton.TabIndex = 19;
             this.showMattStinchcombBioButton.Text = "Matt S";
             this.showMattStinchcombBioButton.UseVisualStyleBackColor = true;
             this.showMattStinchcombBioButton.Click += new System.EventHandler(this.showMattStinchcombBioButton_Click);
             // 
+            // showSamButton
+            // 
+            this.showSamButton.Location = new System.Drawing.Point(164, 78);
+            this.showSamButton.Name = "showSamButton";
+            this.showSamButton.Size = new System.Drawing.Size(75, 23);
+            this.showSamButton.TabIndex = 20;
+            this.showSamButton.Text = "Sam Q";
+            this.showSamButton.UseVisualStyleBackColor = true;
+            this.showSamButton.Click += new System.EventHandler(this.showSamQBioButton_Click);
+            // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1264, 831);
+            this.ClientSize = new System.Drawing.Size(632, 432);
+            this.Controls.Add(this.showSamButton);
             this.Controls.Add(this.showMattStinchcombBioButton);
             this.Controls.Add(this.sarahWeinerButton);
             this.Controls.Add(this.alecxisButton);
@@ -322,7 +335,7 @@
             this.Controls.Add(this.dieuButton);
             this.Controls.Add(this.showTannerSBioBtn);
             this.Controls.Add(this.referenceLbl);
-            this.Margin = new System.Windows.Forms.Padding(4);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form1";
             this.Text = "Launch Page - Bios";
             this.ResumeLayout(false);
@@ -354,6 +367,7 @@
         private System.Windows.Forms.Button alecxisButton;
         private System.Windows.Forms.Button sarahWeinerButton;
         private System.Windows.Forms.Button showMattStinchcombBioButton;
+        private System.Windows.Forms.Button showSamButton;
     }
 }
 
