@@ -51,5 +51,10 @@ namespace IC17
         {
             MessageBox.Show("This is Jessica Sheldon's bio.");
         }
+
+        private void chadHayesButtonBio_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("This is Chad Hayes' bio");
+        }
     }
 }
