@@ -104,5 +104,10 @@ namespace IC17
         {
             MessageBox.Show("This is Bryce Gallagher's Bio");
         }
+
+        private void yimingGuoBtn_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("This is Yiming Guo's Bio");
+        }
     }
 }
