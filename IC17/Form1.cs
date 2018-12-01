@@ -109,5 +109,10 @@ namespace IC17
         {
             MessageBox.Show("This is Yiming Guo's Bio");
         }
+
+        private void alecxisButton_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("This is Alecxis Meneses' Bio");
+        }
     }
 }
