@@ -56,5 +56,10 @@ namespace IC17
         {
             MessageBox.Show("This is Chad Hayes' bio");
         }
+
+        private void raajpaalGohlwarButton_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("This is Raajpaal Gohlwar's bio");
+        }
     }
 }
