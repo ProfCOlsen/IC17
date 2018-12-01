@@ -114,5 +114,10 @@ namespace IC17
         {
             MessageBox.Show("This is Alecxis Meneses' Bio");
         }
+
+        private void sarahWeinerButton_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("This is Sarah Weiner's Bio.");
+        }
     }
 }
