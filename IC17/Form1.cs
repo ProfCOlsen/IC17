@@ -36,5 +36,10 @@ namespace IC17
         {
             MessageBox.Show("This is Jake Kampf's bio.");
         }
+
+        private void victoriaTangButton_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("This is Victoria Tang's bio.");
+        }
     }
 }
